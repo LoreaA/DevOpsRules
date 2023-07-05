@@ -10,7 +10,7 @@ cp ../index.html .
 git add --all
 git commit -m "$(date)" || true
 git push
-
+cd ../
 rm -rf DevOpsRules_webserver
 
 
