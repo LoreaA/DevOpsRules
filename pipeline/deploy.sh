@@ -3,7 +3,7 @@
 set -e
 echo "executing $0 {"
 rm -rf DevOpsRules_webserver
-git clone https://github.com/LoreaA/DevOpsRules_webserver.git
+git clone "https://$MACHINE_USER_TOKEN@github.com/LoreaA/DevOpsRules_webserver.git"
 
 cd DevOpsRules_webserver/
 cp ../index.html .
