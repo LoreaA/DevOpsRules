@@ -8,7 +8,7 @@ git clone "https://$MACHINE_USER_TOKEN@github.com/LoreaA/DevOpsRules_webserver.g
 cd DevOpsRules_webserver/
 cp ../index.html .
 git add --all
-git commit -m "$(date)"
+git commit -m "$(date)" || true
 git push
 
 rm -rf DevOpsRules_webserver
